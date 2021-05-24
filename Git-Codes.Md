@@ -13,4 +13,4 @@ Create new git branch
   This is shorthand for:
   
     git branch branchName
-    git checkout ibranchName
+    git checkout branchName
