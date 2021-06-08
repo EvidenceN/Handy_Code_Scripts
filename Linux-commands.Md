@@ -33,4 +33,4 @@ Each digit is a combination of the numbers 4, 2, 1, and 0:
 So 7 is the combination of permissions 4+2+1 (read, write, and execute), 5 is 4+0+1 (read, no write, and execute), 
 and 4 is 4+0+0 (read, no write, and no execute).
 
-More CHMOD commands can be found here <a href = "https://www.computerhope.com/unix/uchmod.htm" target="_blank">More CHMOD commands can be found here</a>
+<a href = https://www.computerhope.com/unix/uchmod.htm target="_blank">More CHMOD commands can be found here</a>
