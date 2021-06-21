@@ -34,3 +34,9 @@ So 7 is the combination of permissions 4+2+1 (read, write, and execute), 5 is 4+
 and 4 is 4+0+0 (read, no write, and no execute).
 
 <a href = https://www.computerhope.com/unix/uchmod.htm target="_blank">More CHMOD commands can be found here</a>
+
+# CHOWN
+
+Change Owner of a file and Change Group Owner. Also, how to change the owner and group of every file in the directory. 
+
+<a href = https://linuxize.com/post/linux-chown-command target="_blank">CHOWN Blog Post Instructions </a>
