@@ -86,3 +86,14 @@ Less than: `-lt` <br>
 Greater than or equal: `-ge` <br>
 Greater than: `-gt`<br>
 Is null: `-z`
+
+**The common operators for comparing strings are:**
+
+Equal: == <br>
+Not equal: !=
+
+For example, to compare if the variables foo and bar contain the same string:
+
+`if [ "$foo" == "$bar"]`
+
+
