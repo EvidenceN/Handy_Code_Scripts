@@ -77,3 +77,12 @@ then
   echo "Strings are not equal"
 fi
 ```
+
+# Bash Comparison Operators
+Equal: `-eq`<br>
+Not equal: `-ne`<br>
+Less than or equal: `-le` <br>
+Less than: `-lt` <br>
+Greater than or equal: `-ge` <br>
+Greater than: `-gt`<br>
+Is null: `-z`
