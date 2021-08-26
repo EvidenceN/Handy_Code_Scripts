@@ -14,3 +14,8 @@ Create new git branch
   
     git branch branchName
     git checkout branchName
+    
+Make an empty commit for pushing to production. 
+
+    git commit --allow-empty -m "Commit message"
+    git push -u origin branch_name 
