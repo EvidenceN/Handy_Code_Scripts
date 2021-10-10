@@ -41,4 +41,4 @@ Change Owner of a file and Change Group Owner. Also, how to change the owner and
 
 <a href = https://linuxize.com/post/linux-chown-command target="_blank">CHOWN Blog Post Instructions </a>
 
-<a href = https://www.cyberciti.biz/faq/how-to-use-chmod-and-chown-command/Another target="_blank"> blog that goes into more depth about chmod and chown. What file symbols like "drwx-rw--" means</a>
+<a href = https://www.cyberciti.biz/faq/how-to-use-chmod-and-chown-command/Another target="_blank"> Another blog that goes into more depth about chmod and chown. What file symbols like "drwx-rw--" means</a>
