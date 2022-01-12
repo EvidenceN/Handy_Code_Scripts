@@ -22,7 +22,7 @@ Make an empty commit for pushing to production.
 
 Scenario
 
-* Has a pre-existing repo with code
+* Has a pre-existing remote repo with code
 * Has a local folder that is not a git repo but I want to turn it into a git repo and sync it with my pre-existing remote repo
 
 How to get it done. 
