@@ -37,3 +37,14 @@ How to get it done.
 * On github, merge the new branch back into master branch
 * On terminal (local computer). Do a `git pull` to merge online master branch to local master branch
 * Proceed to make the necessary changes like deleting some files, moving things around, e.t.c from master branch. Could also do this step before merging to master branch. 
+
+
+**How to resolve a merge conflict where master branch has changed resulting in your own code being out of sync with master**
+
+From the commandline
+1. `git checkout master`
+2. `git fetch`
+3. `Git checkout the branch you were using to do your work`
+4. `git merge master`
+6. If the code merges automatically, GREAT. If not, it will show you things that couldn't be merged automatically. To resolve this, Go to VSCode or your IDE. Click `"Accept both changes"`
+7. Push your changes back to github and merge conflict should be resolved. 
