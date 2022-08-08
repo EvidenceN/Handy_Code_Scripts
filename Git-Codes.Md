@@ -48,3 +48,12 @@ From the commandline
 4. `git merge master`
 6. If the code merges automatically, GREAT. If not, it will show you things that couldn't be merged automatically. To resolve this, Go to VSCode or your IDE. Click `"Accept both changes"`
 7. Push your changes back to github and merge conflict should be resolved. 
+
+
+After setting up SSH, how to add email and username
+
+```
+git config --global user.email "email@example.com"
+git config --global user.email (To confirm setting) 
+git config --global user.name "Mona Lisa"
+git config --global user.name (To confirm setting)```
