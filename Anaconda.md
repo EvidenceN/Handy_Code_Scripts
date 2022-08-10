@@ -32,3 +32,8 @@ Code to update anaconda
 
 `conda update -n base conda`
 
+# Anaconda Navigator
+
+Install anaconda navigator -- `conda install anaconda-navigator`
+
+Uninstall Anaconda navigator -- `conda remove anaconda-navigator`
