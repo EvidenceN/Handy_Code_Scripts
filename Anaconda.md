@@ -18,3 +18,10 @@ To install a package, google search `conda + package_name` to find the appropria
 Go through the process above to create a new environment. After the environment is activated, run
 
 `pip install -r requirements.txt`
+
+# Conda Environments
+
+List conda environments
+
+`conda info --envs`. OR.
+`conda env list`. ... 
