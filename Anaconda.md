@@ -1,7 +1,8 @@
 # New environment
 Create a new environment without requirements.txt file
 
-`conda create -n env_name` 
+`conda create -n env_name python=3.9 anaconda`
+It  will install majority of what you need for data analysis work because of the `anaconda` part at the end. 
 
 To activate the newly created environment
 
