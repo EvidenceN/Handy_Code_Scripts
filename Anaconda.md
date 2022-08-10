@@ -25,3 +25,10 @@ List conda environments
 
 `conda info --envs`. OR.
 `conda env list`. ... 
+
+# Update Anaconda
+
+Code to update anaconda
+
+`conda update -n base conda`
+
