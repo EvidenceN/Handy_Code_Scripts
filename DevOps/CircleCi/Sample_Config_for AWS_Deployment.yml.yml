@@ -1,0 +1,40 @@
+version: 2.1
+
+defaults: &docker_image # default name
+  docker:
+    - image: amazon/aws-cli
+
+commands:
+  aws-stack-command:
+    description: "A command to execute and launch EC2 instance & Corresponding Security Group in AWS"
+    steps:
+      - checkout
+      - run:
+          name: Create Cloudformation Stack
+          # | is needed to concatenate the strings
+          # has to be '--template-file' and not '-- template file'. No space or error will occur. 
+          # It's 'template-body' not 'template-file'. Caught this because circleCI thinks the template-file is a parameters file when it is not. That didn't work. 
+          # It requires 'template-file' and not 'template body'. When I use  'aws cloudformation create-stack' , the argument says 'template body', but I guess this command  'aws cloudformation deploy' requires 'template file' instead. 
+          # It is required that 'template-file' value be a string (So, name of file path needs to be in string quotations). Maybe that's what I was missing before. That didn't solve it. 
+          # maybe adding a '/' in front of 'template file' value will resolve the issue of "Invalid template path ec2_instance.yml"
+          # Fully qualified 'template file' value file path. 
+          # Moved the EC2_Instance.yml file to the same folder level as .circleci
+
+          command: |
+            aws cloudformation deploy \
+              --template-file ec2_instance.yml \
+              --stack-name create-infrastructure-${CIRCLE_WORKFLOW_ID:0:5} \
+              --region us-west-2  
+
+
+jobs:
+  create_infrastructure:
+    <<: *docker_image # calling the default above. 
+
+    steps:
+      - aws-stack-command
+
+workflows:
+  infra_create:
+    jobs:
+      - create_infrastructure
