@@ -221,6 +221,6 @@ var view_res = view_stmt.execute();
 return view_res.next();
 $$;
 
-call create_view_over_json('sandbox_db.evidence.colors', 'json_data',   'colors_view', 'match col case', 'match datatypes');
+call create_view_over_json('DB.SCHEMA.TABLE_NAME (OF JSON FILE)', 'COLUMN_NAME (OF JSON FILE)',   'NAME_OF_NEW_VIEW', 'match col case', 'match datatypes');
 
 select * from colors_view
