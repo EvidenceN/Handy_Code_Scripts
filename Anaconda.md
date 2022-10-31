@@ -38,3 +38,8 @@ Code to update anaconda
 Install anaconda navigator -- `conda install anaconda-navigator`
 
 Uninstall Anaconda navigator -- `conda remove anaconda-navigator`
+
+# Anaconda Settings
+
+* Stop anaconda from automatically activating base environment in powershell and command line
+    `conda config --set auto_activate_base false`
