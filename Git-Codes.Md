@@ -39,12 +39,12 @@ How to get it done.
 * Proceed to make the necessary changes like deleting some files, moving things around, e.t.c from master branch. Could also do this step before merging to master branch. 
 
 **ANOTHER VERSION of the above instructions**
-* Git init on local computer
-* git remote add origin <ssh link to remote repo>
-* git pull <ssh link to remote repo> <remote branch name>
-* git add <local file>
-* git commit <message>
-* git push -u origin master
+* `git init on local computer`
+* `git remote add origin <ssh link to remote repo>`
+* `git pull <ssh link to remote repo> <remote branch name>`
+* `git add <local file>`
+* `git commit <message>`
+* `git push -u origin master`
 
 **How to resolve a merge conflict where master branch has changed resulting in your own code being out of sync with master**
 
