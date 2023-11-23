@@ -56,7 +56,6 @@ From the commandline
 6. If the code merges automatically, GREAT. If not, it will show you things that couldn't be merged automatically. To resolve this, Go to VSCode or your IDE. Click `"Accept both changes"`
 7. Push your changes back to github and merge conflict should be resolved. 
 
-
 After setting up SSH, how to add email and username
 
 ```
@@ -64,3 +63,12 @@ git config --global user.email "email@example.com"
 git config --global user.email (To confirm setting) 
 git config --global user.name "Mona Lisa"
 git config --global user.name (To confirm setting)```
+
+**Checkout remote branch**
+
+`git fetch` or `git fetch origin`
+`git branch -v -a`
+`git checkout remote_branch_name` or `git switch branch_name` or `git switch -c branch_name origin/branch_name`
+
+**Merging changes from master into my branch**
+`git checkout custom_branch && git rebase master`
