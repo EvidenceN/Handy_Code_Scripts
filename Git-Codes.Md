@@ -69,8 +69,11 @@ git config --global user.name (To confirm setting)
 **Checkout remote branch**
 
 `git fetch` or `git fetch origin`
+
 `git branch -v -a`
+
 `git checkout remote_branch_name` or `git switch branch_name` or `git switch -c branch_name origin/branch_name`
 
 **Merging changes from master into my branch**
+
 `git checkout custom_branch && git rebase master`
