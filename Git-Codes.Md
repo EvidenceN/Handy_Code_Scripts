@@ -62,7 +62,9 @@ After setting up SSH, how to add email and username
 git config --global user.email "email@example.com"
 git config --global user.email (To confirm setting) 
 git config --global user.name "Mona Lisa"
-git config --global user.name (To confirm setting)```
+git config --global user.name (To confirm setting)
+```
+
 
 **Checkout remote branch**
 
